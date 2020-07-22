@@ -8,6 +8,7 @@
   },
   "dependencies": {
     "apollo-server": "^2.16.0",
+    "dotenv": "^8.2.0",
     "graphql": "^15.3.0",
     "mongoose": "^5.9.25"
   },
@@ -18,5 +19,11 @@
     "babel-preset-stage-3": "^6.24.1",
     "eslint": "^7.5.0",
     "nodemon": "^2.0.4"
+  },
+  "babel": {
+    "presets": [
+      "env",
+      "stage-3"
+    ]
   }
 }

@@ -1,6 +1,10 @@
 import mongoose from "mongoose"
 const Schema = mongoose.Schema
 const schema = new Schema({
+  writer: {
+    type: String,
+    required: true,
+  },
   content: {
     type: String,
     required: true,
