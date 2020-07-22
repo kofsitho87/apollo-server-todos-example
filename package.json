@@ -1,0 +1,22 @@
+{
+  "name": "apollo-todo-app",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "start": "nodemon --exec babel-node index.js"
+  },
+  "dependencies": {
+    "apollo-server": "^2.16.0",
+    "graphql": "^15.3.0",
+    "mongoose": "^5.9.25"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-eslint": "^10.1.0",
+    "babel-preset-env": "^1.7.0",
+    "babel-preset-stage-3": "^6.24.1",
+    "eslint": "^7.5.0",
+    "nodemon": "^2.0.4"
+  }
+}
