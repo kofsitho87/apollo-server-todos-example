@@ -5,7 +5,7 @@ export const connect = async () => {
   const { DB_HOST, DB_NAME } = process.env
   try {
     mongoose.set("useFindAndModify", false)
-    await mongoose.connect(`mongodb+srv://${DB_HOST}/${DB_NAME}`, {
+    await mongoose.connect(`mongodb://${DB_HOST}/${DB_NAME}`, {
       useNewUrlParser: true,
       useUnifiedTopology: true,
       useCreateIndex: true,
